@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5C7B3041A63D8360025117D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C7B3031A63D8360025117D /* main.m */; };
+		B5C7B3071A63D8360025117D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C7B3061A63D8360025117D /* AppDelegate.m */; };
+		B5C7B30A1A63D8360025117D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C7B3091A63D8360025117D /* ViewController.m */; };
+		B5C7B30D1A63D8360025117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C7B30B1A63D8360025117D /* Main.storyboard */; };
+		B5C7B30F1A63D8360025117D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C7B30E1A63D8360025117D /* Images.xcassets */; };
+		B5C7B3121A63D8360025117D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5C7B3101A63D8360025117D /* LaunchScreen.xib */; };
+		B5C7B31E1A63D8360025117D /* IQNetworkKit_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C7B31D1A63D8360025117D /* IQNetworkKit_DemoTests.m */; };
+		B5C7B32D1A63D8A70025117D /* IQNetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C7B32B1A63D8A70025117D /* IQNetworkQueue.m */; };
+		B5C7B3311A63DA6A0025117D /* IQURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C7B3301A63DA6A0025117D /* IQURLConnection.m */; };
+		B5C8D7851A65177400CEB27D /* IQNetworkTask.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C8D7841A65177400CEB27D /* IQNetworkTask.m */; };
+		B5C8D7881A65179F00CEB27D /* IQNetworkDataTask.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C8D7871A65179F00CEB27D /* IQNetworkDataTask.m */; };
+		B5C8D78B1A65181C00CEB27D /* IQNetworkUploadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C8D78A1A65181C00CEB27D /* IQNetworkUploadTask.m */; };
+		B5C8D78E1A65183200CEB27D /* IQNetworkDownloadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C8D78D1A65183200CEB27D /* IQNetworkDownloadTask.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5C7B3181A63D8360025117D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5C7B2F61A63D8360025117D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5C7B2FD1A63D8360025117D;
+			remoteInfo = "IQNetworkKit Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5C7B2FE1A63D8360025117D /* IQNetworkKit Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IQNetworkKit Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C7B3021A63D8360025117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C7B3031A63D8360025117D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5C7B3051A63D8360025117D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5C7B3061A63D8360025117D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5C7B3081A63D8360025117D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5C7B3091A63D8360025117D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5C7B30C1A63D8360025117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5C7B30E1A63D8360025117D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5C7B3111A63D8360025117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B5C7B3171A63D8360025117D /* IQNetworkKit DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IQNetworkKit DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C7B31C1A63D8360025117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C7B31D1A63D8360025117D /* IQNetworkKit_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IQNetworkKit_DemoTests.m; sourceTree = "<group>"; };
+		B5C7B32A1A63D8A70025117D /* IQNetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQNetworkQueue.h; sourceTree = "<group>"; };
+		B5C7B32B1A63D8A70025117D /* IQNetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQNetworkQueue.m; sourceTree = "<group>"; };
+		B5C7B32F1A63DA6A0025117D /* IQURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQURLConnection.h; sourceTree = "<group>"; };
+		B5C7B3301A63DA6A0025117D /* IQURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQURLConnection.m; sourceTree = "<group>"; };
+		B5C8D7831A65177400CEB27D /* IQNetworkTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQNetworkTask.h; sourceTree = "<group>"; };
+		B5C8D7841A65177400CEB27D /* IQNetworkTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQNetworkTask.m; sourceTree = "<group>"; };
+		B5C8D7861A65179F00CEB27D /* IQNetworkDataTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQNetworkDataTask.h; sourceTree = "<group>"; };
+		B5C8D7871A65179F00CEB27D /* IQNetworkDataTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQNetworkDataTask.m; sourceTree = "<group>"; };
+		B5C8D7891A65181C00CEB27D /* IQNetworkUploadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQNetworkUploadTask.h; sourceTree = "<group>"; };
+		B5C8D78A1A65181C00CEB27D /* IQNetworkUploadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQNetworkUploadTask.m; sourceTree = "<group>"; };
+		B5C8D78C1A65183200CEB27D /* IQNetworkDownloadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQNetworkDownloadTask.h; sourceTree = "<group>"; };
+		B5C8D78D1A65183200CEB27D /* IQNetworkDownloadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQNetworkDownloadTask.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5C7B2FB1A63D8360025117D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C7B3141A63D8360025117D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5C7B2F51A63D8360025117D = {
+			isa = PBXGroup;
+			children = (
+				B5C7B3271A63D8910025117D /* IQNetworkKit */,
+				B5C7B3001A63D8360025117D /* IQNetworkKit Demo */,
+				B5C7B31A1A63D8360025117D /* IQNetworkKit DemoTests */,
+				B5C7B2FF1A63D8360025117D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5C7B2FF1A63D8360025117D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5C7B2FE1A63D8360025117D /* IQNetworkKit Demo.app */,
+				B5C7B3171A63D8360025117D /* IQNetworkKit DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5C7B3001A63D8360025117D /* IQNetworkKit Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B5C7B3051A63D8360025117D /* AppDelegate.h */,
+				B5C7B3061A63D8360025117D /* AppDelegate.m */,
+				B5C7B3081A63D8360025117D /* ViewController.h */,
+				B5C7B3091A63D8360025117D /* ViewController.m */,
+				B5C7B30B1A63D8360025117D /* Main.storyboard */,
+				B5C7B30E1A63D8360025117D /* Images.xcassets */,
+				B5C7B3101A63D8360025117D /* LaunchScreen.xib */,
+				B5C7B3011A63D8360025117D /* Supporting Files */,
+			);
+			path = "IQNetworkKit Demo";
+			sourceTree = "<group>";
+		};
+		B5C7B3011A63D8360025117D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5C7B3021A63D8360025117D /* Info.plist */,
+				B5C7B3031A63D8360025117D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5C7B31A1A63D8360025117D /* IQNetworkKit DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5C7B31D1A63D8360025117D /* IQNetworkKit_DemoTests.m */,
+				B5C7B31B1A63D8360025117D /* Supporting Files */,
+			);
+			path = "IQNetworkKit DemoTests";
+			sourceTree = "<group>";
+		};
+		B5C7B31B1A63D8360025117D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5C7B31C1A63D8360025117D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5C7B3271A63D8910025117D /* IQNetworkKit */ = {
+			isa = PBXGroup;
+			children = (
+				B5C7B32E1A63DA6A0025117D /* IQURLConnection */,
+				B5C8D7821A65177400CEB27D /* IQNetworkTask */,
+				B5C7B32A1A63D8A70025117D /* IQNetworkQueue.h */,
+				B5C7B32B1A63D8A70025117D /* IQNetworkQueue.m */,
+			);
+			path = IQNetworkKit;
+			sourceTree = "<group>";
+		};
+		B5C7B32E1A63DA6A0025117D /* IQURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				B5C7B32F1A63DA6A0025117D /* IQURLConnection.h */,
+				B5C7B3301A63DA6A0025117D /* IQURLConnection.m */,
+			);
+			path = IQURLConnection;
+			sourceTree = "<group>";
+		};
+		B5C8D7821A65177400CEB27D /* IQNetworkTask */ = {
+			isa = PBXGroup;
+			children = (
+				B5C8D7831A65177400CEB27D /* IQNetworkTask.h */,
+				B5C8D7841A65177400CEB27D /* IQNetworkTask.m */,
+				B5C8D7861A65179F00CEB27D /* IQNetworkDataTask.h */,
+				B5C8D7871A65179F00CEB27D /* IQNetworkDataTask.m */,
+				B5C8D7891A65181C00CEB27D /* IQNetworkUploadTask.h */,
+				B5C8D78A1A65181C00CEB27D /* IQNetworkUploadTask.m */,
+				B5C8D78C1A65183200CEB27D /* IQNetworkDownloadTask.h */,
+				B5C8D78D1A65183200CEB27D /* IQNetworkDownloadTask.m */,
+			);
+			path = IQNetworkTask;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5C7B2FD1A63D8360025117D /* IQNetworkKit Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C7B3211A63D8360025117D /* Build configuration list for PBXNativeTarget "IQNetworkKit Demo" */;
+			buildPhases = (
+				B5C7B2FA1A63D8360025117D /* Sources */,
+				B5C7B2FB1A63D8360025117D /* Frameworks */,
+				B5C7B2FC1A63D8360025117D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IQNetworkKit Demo";
+			productName = "IQNetworkKit Demo";
+			productReference = B5C7B2FE1A63D8360025117D /* IQNetworkKit Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5C7B3161A63D8360025117D /* IQNetworkKit DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C7B3241A63D8360025117D /* Build configuration list for PBXNativeTarget "IQNetworkKit DemoTests" */;
+			buildPhases = (
+				B5C7B3131A63D8360025117D /* Sources */,
+				B5C7B3141A63D8360025117D /* Frameworks */,
+				B5C7B3151A63D8360025117D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5C7B3191A63D8360025117D /* PBXTargetDependency */,
+			);
+			name = "IQNetworkKit DemoTests";
+			productName = "IQNetworkKit DemoTests";
+			productReference = B5C7B3171A63D8360025117D /* IQNetworkKit DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5C7B2F61A63D8360025117D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Iftekhar;
+				TargetAttributes = {
+					B5C7B2FD1A63D8360025117D = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					B5C7B3161A63D8360025117D = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B5C7B2FD1A63D8360025117D;
+					};
+				};
+			};
+			buildConfigurationList = B5C7B2F91A63D8360025117D /* Build configuration list for PBXProject "IQNetworkKit Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5C7B2F51A63D8360025117D;
+			productRefGroup = B5C7B2FF1A63D8360025117D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5C7B2FD1A63D8360025117D /* IQNetworkKit Demo */,
+				B5C7B3161A63D8360025117D /* IQNetworkKit DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5C7B2FC1A63D8360025117D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C7B30D1A63D8360025117D /* Main.storyboard in Resources */,
+				B5C7B3121A63D8360025117D /* LaunchScreen.xib in Resources */,
+				B5C7B30F1A63D8360025117D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C7B3151A63D8360025117D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5C7B2FA1A63D8360025117D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C7B32D1A63D8A70025117D /* IQNetworkQueue.m in Sources */,
+				B5C8D78E1A65183200CEB27D /* IQNetworkDownloadTask.m in Sources */,
+				B5C7B30A1A63D8360025117D /* ViewController.m in Sources */,
+				B5C8D7881A65179F00CEB27D /* IQNetworkDataTask.m in Sources */,
+				B5C7B3311A63DA6A0025117D /* IQURLConnection.m in Sources */,
+				B5C8D78B1A65181C00CEB27D /* IQNetworkUploadTask.m in Sources */,
+				B5C7B3071A63D8360025117D /* AppDelegate.m in Sources */,
+				B5C7B3041A63D8360025117D /* main.m in Sources */,
+				B5C8D7851A65177400CEB27D /* IQNetworkTask.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C7B3131A63D8360025117D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C7B31E1A63D8360025117D /* IQNetworkKit_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5C7B3191A63D8360025117D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5C7B2FD1A63D8360025117D /* IQNetworkKit Demo */;
+			targetProxy = B5C7B3181A63D8360025117D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5C7B30B1A63D8360025117D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5C7B30C1A63D8360025117D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5C7B3101A63D8360025117D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5C7B3111A63D8360025117D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5C7B31F1A63D8360025117D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5C7B3201A63D8360025117D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5C7B3221A63D8360025117D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IQNetworkKit Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5C7B3231A63D8360025117D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IQNetworkKit Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5C7B3251A63D8360025117D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IQNetworkKit DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IQNetworkKit Demo.app/IQNetworkKit Demo";
+			};
+			name = Debug;
+		};
+		B5C7B3261A63D8360025117D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IQNetworkKit DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IQNetworkKit Demo.app/IQNetworkKit Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5C7B2F91A63D8360025117D /* Build configuration list for PBXProject "IQNetworkKit Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C7B31F1A63D8360025117D /* Debug */,
+				B5C7B3201A63D8360025117D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5C7B3211A63D8360025117D /* Build configuration list for PBXNativeTarget "IQNetworkKit Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C7B3221A63D8360025117D /* Debug */,
+				B5C7B3231A63D8360025117D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5C7B3241A63D8360025117D /* Build configuration list for PBXNativeTarget "IQNetworkKit DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C7B3251A63D8360025117D /* Debug */,
+				B5C7B3261A63D8360025117D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5C7B2F61A63D8360025117D /* Project object */;
+}
